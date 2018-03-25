@@ -1,0 +1,5 @@
+%tr
+  %td= link_to "#{movie.title}", movie_path(movie)
+  %td= movie.rating
+  %td= movie.release_date
+  %td= link_to "More about #{movie.title}", movie_path(movie)
